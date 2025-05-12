@@ -1,6 +1,6 @@
 [package]
 name = "rust-mqtt"
-version = "0.3.0"
+version = "0.4.0"
 authors = ["Ondrej Babec <ond.babec@gmail.com>"]
 edition = "2021"
 resolver = "2"
@@ -12,7 +12,7 @@ repository = "https://github.com/obabec/rust-mqtt"
 
 [dependencies]
 heapless = "0.8"
-rand_core = "0.6"
+rand_core = "0.9"
 defmt = { version = "0.3", optional = true }
 log = { version = "0.4", optional = true }
 embedded-io = "0.6"
